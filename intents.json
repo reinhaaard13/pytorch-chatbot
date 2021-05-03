@@ -38,10 +38,7 @@
         "What kinds of items are there?",
         "What do you sell?"
       ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
     },
     {
       "tag": "payments",
@@ -63,10 +60,7 @@
         "How long does shipping take?",
         "When do I get my delivery?"
       ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
     },
     {
       "tag": "funny",
@@ -78,6 +72,14 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": ["Kasih tebak-tebakan dong!", "Ada teka-teki receh ngga?"],
+      "responses": [
+        "Band apa yang nggak menghibur? Nidji, soalnya vokalisnya Garing",
+        "Penyanyi luar negri yang aktif politik? Ariana Gerindra"
       ]
     }
   ]

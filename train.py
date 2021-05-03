@@ -2,6 +2,8 @@ import numpy as np
 import random
 import json
 
+from constants import FILE
+
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
@@ -90,6 +92,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+# print(model.parameters())
 
 # Train the model
 for epoch in range(num_epochs):
@@ -123,7 +126,6 @@ data = {
 "tags": tags
 }
 
-FILE = "data.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')
